@@ -30,11 +30,11 @@ main {
 
 .sedan, .suv, .lux {
     width: 25%;
-    height: 25%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-left: 2rem;
+    row-gap: 2rem;
+    padding: 5rem 0 4rem 2.5rem;
     font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
 }
@@ -49,7 +49,39 @@ main {
     background-color: hsl(179, 100%, 13%);
 }
 
+img {
+    width: 15%;
+    height: 3.2rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 83%;
+}
+
 button{
     font-family: "Big Shoulders Display", sans-serif;
     background-color: hsl(0, 0%, 95%);
+    width: 45%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    border-radius: 2rem;
+    border: 0.1px solid white;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+    font-weight: 700;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+.suv button {
+    color:hsl(184, 100%, 22%);
+}
+.lux button  {
+    color: hsl(179, 100%, 13%);
 }
