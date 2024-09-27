@@ -116,3 +116,10 @@ button {
 .lux button {
   color: hsl(179, 100%, 13%);
 }
+
+button:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
