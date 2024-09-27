@@ -9,7 +9,8 @@ Your users should be able to:
 
 ## Screenshots
 
-
+![alt text](design/desktop-design.jpg)
+![alt text](design/mobile-design.jpg)
 
 ## Hosted on github domain
 
