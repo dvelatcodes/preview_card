@@ -14,7 +14,7 @@ Your users should be able to:
 
 ## Hosted on github domain
 
-- check out live site here [bento grid]()
+- check out live site here [card preview](https://dvelatcodes.github.io/preview_card/)
 
 ## My process
 
